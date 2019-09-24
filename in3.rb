@@ -8,6 +8,8 @@ class In3 < Formula
   def install
 	bin.install "bin/in3"
 	bin.install "bin/rlp"
+	include.install Dir["include/*"]
+	lib.install "lib/*"
   end
 
 end
