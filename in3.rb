@@ -1,4 +1,4 @@
-class In3C < Formula
+class In3 < Formula
   desc "C-version of the in3 client "
   homepage ""
   url "https://github.com/slockit/in3-c/releases/download/v1.0.0/in3-1.0.0-mac.zip"
