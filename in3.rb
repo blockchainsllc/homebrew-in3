@@ -9,7 +9,7 @@ class In3 < Formula
 	bin.install "bin/in3"
 	bin.install "bin/rlp"
 	include.install Dir["include/*"]
-	lib.install "lib/*"
+	lib.install "lib/libin3.dylib"
   end
 
 end
