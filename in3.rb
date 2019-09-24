@@ -10,6 +10,7 @@ class In3 < Formula
 	bin.install "bin/rlp"
 	include.install Dir["include/*"]
 	lib.install "lib/libin3.dylib"
+	lib.install "lib/libin3_jni.dylib"
   end
 
 end
