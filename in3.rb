@@ -1,8 +1,8 @@
 class In3 < Formula
   desc "C-version of the in3 client "
   homepage ""
-url "https://github.com/slockit/in3-c/releases/download/v2.2.0/in3_v2.2.0_mac.tar.gz"
-sha256 "036bfec8e348c4a996a6c42b5510ffbd8efcda97a94afeaf70ff263db9ae7d06"
+url "https://github.com/slockit/in3-c/releases/download/v2.2.1/in3_v2.2.1_mac.tar.gz"
+sha256 "aa7e6bf441a1ee928105960ca644ef19279978ec0d4ff9f0d359a94823858ee6"
 
   def install
 	bin.install "bin/in3"
